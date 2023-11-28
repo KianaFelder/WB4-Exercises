@@ -1,12 +1,20 @@
 "use strict";
 
 let lunch = [
-    {item: 'Oxtail, Rice & Peas', price: 18.95},
-    {item: 'Mac & Cheese', price: 4.50},
-    {item: 'Tropical Punch', price: 2.65}
+    {item: "Steak Fajitas", price: 9.95},
+    {item: "Chips and Guacamole", price: 5.25},
+    {item: "Sweet Tea", price: 2.79}
+    ];
 
-];
+    let 
 
-let sum = 0;
+function mealCost(order) {
+    
+}
 
-let numItemsOfFood = lunch.length;
+
+// let numItemsOfFood = lunch.length;
+// let total = 0;
+// for (let total = 0; total < numItemsOfFood;){
+// con
+// }
