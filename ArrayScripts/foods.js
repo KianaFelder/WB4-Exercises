@@ -6,15 +6,10 @@ let lunch = [
     {item: "Sweet Tea", price: 2.79}
     ];
 
-    let 
+    let numOfItems = lunch.length
 
-function mealCost(order) {
-    
-}
-
-
-// let numItemsOfFood = lunch.length;
-// let total = 0;
-// for (let total = 0; total < numItemsOfFood;){
-// con
-// }
+    for(let i = 0; i < numOfItems; i++){
+        //console.log(i);
+        console.log(lunch[i].price);
+        console.log(lunch[i].item)
+    }
