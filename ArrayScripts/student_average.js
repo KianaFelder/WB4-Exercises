@@ -8,3 +8,16 @@ let students = [
     {name: "Elisha", scores: [89, 100]},
     {name: "Ezra", scores: [100, 99, 100, 87]}
     ];
+
+    for(let i = 0; i < students.length; i++){
+        let currentStudents = students[i];
+        let sumScore = 0;
+
+        for(let k = 0; k < students.scores.length; k++) {
+            sumScore += students.score[i];
+    
+        }
+        let average = currentStudents / students.scores.length
+        
+    }
+
